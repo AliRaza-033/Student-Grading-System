@@ -1,3 +1,5 @@
+<img src="https://github.com/AliRaza-033/Student-Grading-System/blob/main/WhatsApp%20Image%202025-12-30%20at%203.04.47%20PM.jpeg" alt="Project Image" />
+
 # Student Grading System
 
 A comprehensive offline student grading management system built with Next.js and MS SQL Server. This system provides role-based authentication for Admin and Students, allowing administrators to manage students, courses, enrollments, assessments, and grades, while students can view their academic performance.
