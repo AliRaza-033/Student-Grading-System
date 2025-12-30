@@ -275,69 +275,6 @@ Visit: `http://localhost:3000`
 
 ---
 
-## 📊 Database Schema
-
-### Core Tables
-
-**Users** - Authentication and user accounts
-
-- UserID, Username, Password, Role, CreatedAt
-
-**Students** - Student information
-
-- StudentID, UserID, RollNo, FullName, Department, Semester
-
-**Courses** - Course catalog
-
-- CourseID, CourseCode, CourseName, CreditHours
-
-**Enrollments** - Student-course relationships
-
-- EnrollmentID, StudentID, CourseID, AcademicYear
-
-**Assessments** - Quizzes, exams, assignments
-
-- AssessmentID, CourseID, Title, TotalMarks, Weightage
-
-**Grades** - Individual assessment marks
-
-- GradeID, EnrollmentID, AssessmentID, ObtainedMarks
-
-**Results** - Final computed results
-
-- ResultID, EnrollmentID, TotalMarks, Grade, Status
-
-**SecurityQuestions** & **UserSecurityAnswers** - Password recovery
-
----
-
-## 🎯 Grading System Details
-
-### Letter Grade Scale
-
-| Percentage | Grade | GPA |
-|------------|-------|-----|
-| 85-100 | A | 4.0 |
-| 80-84 | A- | 3.7 |
-| 75-79 | B+ | 3.3 |
-| 70-74 | B | 3.0 |
-| 65-69 | B- | 2.7 |
-| 61-64 | C+ | 2.3 |
-| 58-60 | C | 2.0 |
-| 55-57 | C- | 1.7 |
-| 50-54 | D | 1.0 |
-| <50 | F | 0.0 |
-
-### Result Calculation
-
-1. Each assessment has a weightage (e.g., Quiz: 10%, Mid: 30%, Final: 60%)
-2. Calculate percentage for each assessment
-3. Apply weightage to get weighted marks
-4. Sum all weighted marks for final percentage
-5. Convert to letter grade
-6. Determine Pass/Fail (≥50% = Pass)
-
----
 
 ## 🔧 Configuration
 
@@ -507,4 +444,4 @@ For issues or questions:
 
 ---
 
-**Built with ❤️ using Next.js and MS SQL Server**
+**Built with ❤️ using Next.js and MS SQL Server By Ali Raza**
